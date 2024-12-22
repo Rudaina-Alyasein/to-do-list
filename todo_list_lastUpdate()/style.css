@@ -1,0 +1,281 @@
+.container {
+    width: 60%;
+    margin: auto;
+    /* background: #9652c1; */
+    background: #e7deed;
+    padding: 20px;
+    border-radius: 30px;
+
+    border: 2px;
+
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border-color: rgb(153 115 172);
+    border-radius: 5px;
+    color: rgb(153 115 172);
+    /* background-color: #eee; */
+    background-color: #e7deed;
+    cursor: pointer;
+    margin-top: -5px;
+    margin-bottom: 5px;
+
+
+}
+
+.navbar {
+    height: 70px;
+    /* color: #eee; */
+    color: #e7deed;
+    background-color: rgb(153 115 172);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar .searchdiv,
+h1 {
+    margin: 0 15px;
+
+}
+
+.searchdiv #search-title {
+    /* border: none; */
+    height: 35px;
+    width: 238px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-right: 10px;
+    /* background-color: rgb(231 222 237); */
+    border-color: rgb(231 222 237);
+
+}
+
+.searchdiv #search {
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: #e7deed;
+    border-width: 2px;
+    cursor: pointer;
+    background-color: white;
+
+
+}
+
+.content {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(153 115 172);
+
+}
+
+.content #create {
+    display: none;
+}
+
+.content p {
+    font-size: 40px;
+}
+
+.info {
+
+    padding: 10px;
+    color: rgb(153 115 172);
+}
+
+.info label {
+    font-size: 24px;
+    margin-right: 270px;
+}
+
+.info .date {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+
+.info .date .datebox {
+    height: 40px;
+    width: 400px;
+    margin-left: 45px;
+    border-color: rgb(153 115 172);
+
+    border-radius: 5px;
+}
+
+
+.info .title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+
+}
+
+.info .title label {
+    margin-right: 320px;
+}
+
+.info .title .titleTask {
+    /* 
+    margin-top: 30px;
+    margin-left: 90px; */
+    margin-left: 44px;
+    height: 50px;
+    width: 400px;
+    border-color: rgb(153 115 172);
+
+    border-radius: 5px;
+}
+
+.info .taskarea {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+
+
+}
+
+.info .taskarea label {
+    margin-bottom: 80px;
+    margin-right: 245px;
+}
+
+.info .taskarea textarea {
+    width: 400px;
+    height: 170px;
+    margin-left: 45px;
+    /* margin-top: 50px; */
+    border-color: rgb(153 115 172);
+    margin-top: -70px;
+    border-radius: 5px;
+}
+
+.but {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    gap: 10px;
+}
+
+/* .info .save-task {
+    margin-left: 360px;
+    margin-top: 20px;
+} */
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Taskslist {
+    color: rgb(153 115 172);
+}
+
+#divTask {
+    /* background: #eee; */
+    /* border: #7d09c5; */
+    margin-top: 10px;
+    border-radius: 30px;
+    color: rgb(153 115 172);
+
+}
+
+.task {
+
+
+    width: 80%;
+    margin: auto;
+    background: rgb(245, 242, 242);
+    border: solid 2px rgb(153 115 172);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.test {
+    display: flex;
+    align-items: center;
+
+}
+
+.content2 {
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: -10px;
+    /* margin-bottom: 90px; */
+
+}
+
+.checkboxclass{
+
+    margin-bottom: 90px;
+    border: solid 5px #e7deed;
+    margin-left: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin-top: -80px;
+    margin-right: 30px;
+
+}
+
+.icons .bi-pencil-square {
+    margin-right: 5px;
+    cursor: pointer;
+    /* font-size: 20px;
+     */
+    font-size: 1.5vw;
+    transition: 750ms;
+}
+
+.icons .bi-pencil-square:hover {
+
+    font-size: 30px;
+}
+
+.icons .bi-trash3 {
+    cursor: pointer;
+    font-size: 1.5vw;
+    transition: 750ms;
+}
+
+.icons .bi-trash3:hover {
+
+    font-size: 30px;
+}
+
+button.del,
+.upd {
+    background: none;
+    border: none;
+    margin-right: 10px;
+    width:50px;
+
+
+}

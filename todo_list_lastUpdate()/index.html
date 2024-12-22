@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar">
+            <h1>To Do List</h1>
+
+            <div class="searchdiv">
+                <input onkeyup="searchTasks(this.value)"   type="search" id="search-title" placeholder="Search Title">
+                <button  id="search"> Search</button>
+            </div>
+
+
+        </nav>
+        <div class="content">
+            <p>Lets Start To Plan Your Day</p>
+            <!-- <button id="create">Create Task</button> -->
+        </div>
+        <div class="info">
+            <div class="date">
+                <label id="allLabel">DueDate</label>
+
+                <input type="date" class="datebox">
+            </div>
+
+
+            <div class="title">
+                <label id="allLabel">
+                    Title
+                </label>
+                <input type="text" placeholder="Task1" class="titleTask" required>
+            </div>
+
+            <div class="taskarea">
+                <label id="allLabel">Description</label>
+                <textarea placeholder="Enter your task here" class="description"></textarea>
+            </div>
+            <div class="but"> <button class="save-task">Save Task</button>
+                <button class="delete-all">delete All</button>
+            </div>
+
+        </div>
+        <h1 class="Taskslist">Tasks</h1>
+        <div id="divTask">
+
+           
+
+        </div>
+
+        
+
+        <script src="main.js"></script>
+    </div>
+
+
+    </div>
+
+</body>
+
+</html>
